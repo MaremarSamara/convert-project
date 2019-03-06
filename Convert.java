@@ -13,7 +13,7 @@ public class Convert {
           if (un<=127)
               System.out.println("the number after convert " + (un));
           else
-              System.out.println("the number after convert " + (un-Math.pow(2,t)-1));
+              System.out.println("the number after convert " + (un-Math.pow(2,t)));
       }
       else 
        System.out.println("Please Enter the positve number");   
